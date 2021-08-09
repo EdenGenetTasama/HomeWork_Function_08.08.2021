@@ -70,7 +70,7 @@
 // //===================================================================
 
 // שאלה שביעית:
-// סעיף 1 
+// סעיף 1
 // debugger
 
 // var arrayNumber = [22, 58, 47, 56, 95, 100];
@@ -101,10 +101,10 @@
 // var x = sumOfAllNum(arrayNumber);
 // console.log(x);
 
-// סעיף 3 
+// סעיף 3
 
 // var arrayNumber = [22, 58, 10, 56, 95, 100];
-// var min = arrayNumber[0]; 
+// var min = arrayNumber[0];
 
 // function minNumber(arrayNumber) {
 //     for (var i=1 ; i<arrayNumber.length ; i++){
@@ -137,9 +137,22 @@
 
 // סעיף 5 :
 
-// מחזירה מערך הקצר ב-2 איברים. 
+// מחזירה מערך הקצר ב-2 איברים.
 
+// var arrayNumber = [22, 58, 10, 56, 95, 100];
+// var x = arrayNumber.length;
 
+// // console.log(x);
+
+// function removeArray(arrayNumber) {
+//    arrayNumber.splice(4)
+//    arrayNumber.splice(5)
+//    return(arrayNumber)
+
+// }
+
+// var y = removeArray(arrayNumber);
+// console.log(y);
 
 // //===================================================================
 
@@ -158,17 +171,60 @@
 // console.log(x)
 
 // //===================================================================
-// שאלה עשירית : 
+// שאלה תשיעית :
 
-// var arrayNumber = [22, 58, 47, 56, 95, 100];
+// var arrayNumber = [23, 55, 41, 79, 78, 10, 29];
+
+// var userInput = Number(prompt("Enter Your Number : "));
+
+// function removeArray(arrayNumber) {
+//   for (var i = 0; i < arrayNumber.length; i++){
+//     if (userInput == arrayNumber[i]) {
+//         let index =i;
+//        arrayNumber.splice(index , i);
+//       [arrayNumber[i]]
+//        console.log(arrayNumber , i)
+//     } else {
+//       console.log("לא קיים");
+//     }
+// }}
+
+// removeArray(arrayNumber);
+
+
+// //===================================================================
+
+// שאלה עשירית :
+
 // var arrayNumber2= [10,20,30,40,50,60,70];
+// var arrayNumber = [22, 58, 47, 56, 95, 100];
 
 // function functionArray (arrayNumber){
-// for (var i=0; i< arrayNumber.length ; i++){
-// arrayNumber[i]=arrayNumber[i]*3;
-// }
-// return (arrayNumber)
+//     for (var i=0; i< arrayNumber.length ; i++){
+//         arrayNumber[i]=arrayNumber[i]*3;
+//     }
+//     return (arrayNumber)
 // }
 
 // var x = functionArray(arrayNumber);
 // console.log(x);
+
+
+// //===================================================================
+
+
+// שאלה אחת עשרה :
+
+// var arrayNumber = [10,2,10,2,50,88,66,10];
+
+
+// function numberArray(arrayNumber) {
+//     for(var i=0 ; i<arrayNumber.length ; i++){
+//     if() {
+//         arrayNumber[i]
+//     }
+//     }
+// return();
+// }
+
+
